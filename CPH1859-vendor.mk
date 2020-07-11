@@ -23,9 +23,39 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/oppo/CPH1859/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/oppo/CPH1859/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
-    vendor/oppo/CPH1859/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so
+    vendor/oppo/CPH1859/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
+    vendor/redmi/begonia/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
+    vendor/redmi/begonia/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
+    vendor/redmi/begonia/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar \
+    vendor/redmi/begonia/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+    vendor/redmi/begonia/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
+    vendor/redmi/begonia/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
+    vendor/redmi/begonia/proprietary/lib/libmtkavenhancements.so:system/lib/libmtkavenhancements.so \
+    vendor/redmi/begonia/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
+    vendor/redmi/begonia/proprietary/lib/libmtkperf_client.so:system/lib/libmtkperf_client.so \
+    vendor/redmi/begonia/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+    vendor/redmi/begonia/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+    vendor/redmi/begonia/proprietary/lib/libvcodec_capenc.so:system/lib/libvcodec_capenc.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtk_serialnum.so:system/lib64/libmtk_serialnum.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtkavenhancements.so:system/lib64/libmtkavenhancements.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtkperf_client.so:system/lib64/libmtkperf_client.so \
+    vendor/redmi/begonia/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+    vendor/redmi/begonia/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
+    vendor/redmi/begonia/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
+
 
 
 PRODUCT_PACKAGES += \
-    ImsService
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+
 
