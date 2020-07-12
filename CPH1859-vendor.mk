@@ -22,10 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/etc/init/init.vtservice.rc:system/etc/init/init.vtservice.rc \
     vendor/oppo/CPH1859/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/oppo/CPH1859/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/oppo/CPH1859/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/oppo/CPH1859/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
-    vendor/oppo/CPH1859/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
-    vendor/oppo/CPH1859/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
     vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
     vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-legacy.jar:system/framework/mediatek-ims-legacy.jar \
     vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-wwop-common.jar:system/framework/mediatek-ims-wwop-common.jar \
@@ -41,12 +37,28 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/oppo/CPH1859/proprietary/lib/libmtkperf_client.so:system/lib/libmtkperf_client.so \
     vendor/oppo/CPH1859/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+    vendor/oppo/CPH1859/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/oppo/CPH1859/proprietary/lib/libsignal.so:system/lib/libsignal.so \
     vendor/oppo/CPH1859/proprietary/lib/libsink.so:system/lib/libsink.so \
     vendor/oppo/CPH1859/proprietary/lib/libsource.so:system/lib/libsource.so \
+    vendor/oppo/CPH1859/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/oppo/CPH1859/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/oppo/CPH1859/proprietary/lib/libvcodec_capenc.so:system/lib/libvcodec_capenc.so \
     vendor/oppo/CPH1859/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@1.1.so:system/lib/vendor.mediatek.hardware.radio@1.1.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.0.so:system/lib/vendor.mediatek.hardware.radio@3.0.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.1.so:system/lib/vendor.mediatek.hardware.radio@3.1.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.2.so:system/lib/vendor.mediatek.hardware.radio@3.2.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.3.so:system/lib/vendor.mediatek.hardware.radio@3.3.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.4.so:system/lib/vendor.mediatek.hardware.radio@3.4.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.radio@3.5.so:system/lib/vendor.mediatek.hardware.radio@3.5.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libimsma_adapt.so:system/lib64/libimsma_adapt.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
     vendor/oppo/CPH1859/proprietary/lib64/libmtk_serialnum.so:system/lib64/libmtk_serialnum.so \
     vendor/oppo/CPH1859/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
     vendor/oppo/CPH1859/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
@@ -54,8 +66,23 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/oppo/CPH1859/proprietary/lib64/libmtkperf_client.so:system/lib64/libmtkperf_client.so \
     vendor/oppo/CPH1859/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libsignal.so:system/lib64/libsignal.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libsink.so:system/lib64/libsink.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libsource.so:system/lib64/libsource.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
     vendor/oppo/CPH1859/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/oppo/CPH1859/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@1.1.so:system/lib64/vendor.mediatek.hardware.radio@1.1.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.0.so:system/lib64/vendor.mediatek.hardware.radio@3.0.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.1.so:system/lib64/vendor.mediatek.hardware.radio@3.1.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.2.so:system/lib64/vendor.mediatek.hardware.radio@3.2.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.3.so:system/lib64/vendor.mediatek.hardware.radio@3.3.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.4.so:system/lib64/vendor.mediatek.hardware.radio@3.4.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.5.so:system/lib64/vendor.mediatek.hardware.radio@3.5.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+
+
 
 
 
