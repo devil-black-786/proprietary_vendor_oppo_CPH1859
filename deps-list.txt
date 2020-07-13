@@ -1,0 +1,4 @@
+lib/vendor.mediatek.hardware.videotelephony@1.0.so
+lib/libmediaextractor.so
+lib/vendor.mediatek.hardware.mms@1.0.so
+lib/vendor.mediatek.hardware.mms@1.1.so
